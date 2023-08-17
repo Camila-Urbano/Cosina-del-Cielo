@@ -1,0 +1,65 @@
+.direccion
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.direccion .direc
+{
+    width: 30%;
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.direc img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.direccion .mapa
+{
+    width: 70%;
+}
+
+/************************************************************************************/
+
+@media (max-width: 993px)
+{
+    .direccion
+    {
+        display: block;
+    }
+
+    .direccion .direc
+    {
+        width: 100%;
+    }
+
+    .direccion .mapa
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .direc h1
+    {
+        font-size: 18px;
+    }
+
+    .direc p
+    {
+        font-size: 16px;
+    }
+
+    .direc img
+    {
+        width: 60px;
+        height: 60px;
+    }
+}

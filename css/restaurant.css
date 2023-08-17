@@ -1,0 +1,85 @@
+.menu_restaurante
+{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.menu_titulo
+{
+    text-align: center;
+}
+
+.menu_titulo h1
+{
+    color: #055256;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu_titulo p
+{
+    font-family: 'Alkatra', cursive;
+}
+
+.container_menu
+{
+    width: 100%;
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 15px;
+}
+
+.container_menu .card
+{
+    width: 300px;
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #9ab8ba;
+}
+
+.container_menu .card .card_img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.card .card_img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.container_menu .card_text a
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #055256;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*************************************************************/
+
+@media (max-width: 334px)
+{
+    .container_menu
+    {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .container_menu .card
+    {
+        width: 250px;
+    }
+
+    .container_menu .card .card_img
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+}

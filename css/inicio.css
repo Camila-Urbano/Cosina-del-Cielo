@@ -1,0 +1,47 @@
+.inicio
+{
+    width: 100%;
+    height: 650px;
+    background-image: url('../img/inicio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mensaje_inicio
+{
+    text-align: center;
+}
+
+.mensaje_inicio h1
+{
+    color: #055256;
+}
+
+.mensaje_inicio p
+{
+    font-size: 14px;
+    font-family: 'Alkatra', cursive;
+}
+
+.mensaje_inicio a
+{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #055256;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.mensaje_inicio a:hover
+{
+    color: #055256;
+    background-color: transparent;
+    border: solid 2px #055256;
+}

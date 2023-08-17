@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4380b6d3aa.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/bibimbap.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/restaurant.css">
+    <link rel="stylesheet" href="./css/horarios.css">
+    <link rel="stylesheet" href="./css/direccion.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <title>Cosina del Cielo</title>
+</head>
+<body>
+
+    <header>
+        <div class="nombre">
+            <h1>Cosina del Cielo</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#menu_restaurante">MENÚ</a></li>
+                <li><a href="#horarios">HORARIOS</a></li>
+                <li><a href="#direccion">DIRECCIÓN</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="icon_menu"></i>
+    </header>
+
+    <div class="inicio" id="inicio">
+
+        <div class="mensaje_inicio">
+            <h1>Cosina del Cielo</h1>
+            <p>Disfruta del sabor en cada bocado</p><br>
+            <a href="https://wa.me/573187302078?text=Buanas." target="_blank"><i class="fa-brands fa-whatsapp"></i> Contactanos</a>
+        </div>
+
+    </div>
+
+    <div class="menu_restaurante" id="menu_restaurante">
+
+        <div class="menu_titulo">
+            <h1>Menu</h1>
+            <p>La cocina es nuestra pasión y la calidad es nuestra prioridad</p>
+        </div>
+
+        <div class="container_menu">
+            <div class="card">
+                <div class="card_img">
+                    <img src="./img/restaurant.png" alt="">
+                </div>
+                <div class="card_text">
+                    <a href="comida.html">Comidas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_img">
+                    <img src="./img/drink.png" alt="">
+                </div>
+                <div class="card_text">
+                    <a href="bebidas.html">Bebidas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_img">
+                    <img src="./img/poinsettia.png" alt="">
+                </div>
+                <div class="card_text">
+                    <a href="cocteles.html">Cócteles</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_img">
+                    <img src="./img/cupcake.png" alt="">
+                </div>
+                <div class="card_text">
+                    <a href="postres.html">Postres</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="horarios" id="horarios">
+
+        <div class="horas">
+            <h1>HORARIOS DE ATENCIÓN</h1><br><br>
+            <h3>Lunes</h3>
+            <p>Cerrado</p><br>
+
+            <h3>Martes y miércoles</h3>
+            <p>12:00 pm a 3:00 pm / 7:00pm a 11:00 pm</p><br>
+
+            <h3>Jueves</h3>
+            <p>12:00 pm a 3:00 pm / 4:00pm a 6:00 pm / 7:00 pm a 11:00 pm</p><br>
+
+            <h3>Viernes y sábados</h3>
+            <p>12:00 pm a 3:00 pm / 4:00pm a 6:00 pm / 7:00 pm a 12:00 pm</p><br>
+
+            <h3>Domingos</h3>
+            <p>12:00 pm a 5:00 pm</p><br>
+
+            <h1>LÍNEAS DE RESERVA</h1>
+            <p>xxx-xx-xx</p>
+            <p>xxx-xxx-xx-xx</p>
+            <p>10:00 a.m. a 4:00 p.m.</p><br><br>
+
+            <a href="https://wa.me/573187302078?text=Buanas, me gustaria hacer una reserva." target="_blank"><i class="fa-brands fa-whatsapp"></i> Reservas</a>
+        </div>
+
+    </div>
+
+    <div class="direccion" id="direccion">
+
+        <div class="direc">
+            <img src="./img/address.png" alt="">
+            <h1>DIRECCIÓN:</h1>
+            <p style="margin-bottom: 20px;">
+                Calle xx # xx-xx 
+                Barrio xxxxxxxxxx, Cali, Colombia
+            </p>
+        </div>
+
+        <div class="mapa">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.587228803013!2d-76.55373178628537!3d3.435829015147695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a68310300075%3A0xd88e534efc39f505!2sParque%20Del%20Perro!5e0!3m2!1ses!2sco!4v1672782423385!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+    </div>
+
+    <div class="contacto" id="contacto">
+
+        <form action="">
+            <h1>CONTACTO</h1>
+            <input type="text" name="nombre" placeholder="Nombre Completo*">
+            <input type="text" name="correo" placeholder="Correo Electronico">
+            <input type="text" name="telefono" placeholder="Telefono">
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar" id="enviar">
+        </form>
+
+    </div>
+
+    <footer>
+        <p>©2023 Por Laura Camila Urbano Suarez</p>
+    </footer>
+
+
+    <script src="./js/header.js"></script>
+</body>
+</html>
